@@ -42,7 +42,7 @@
                         <nav class="main-nav">
                             <!-- ***** Logo Start ***** -->
                             <a href="index.html" class="logo">
-                                <img src="assets/images/klassy-logo.png" align="klassy cafe html template">
+                                <img src="assets/images/klassy-logo.png" align="Perfectoo Cafe">
                             </a>
                             <!-- ***** Logo End ***** -->
                             <!-- ***** Menu Start ***** -->
@@ -50,16 +50,7 @@
                                 <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
                                 <li class="scroll-to-section"><a href="#about">About</a></li>
 
-                            <!--
-                                <li class="submenu">
-                                    <a href="javascript:;">Drop Down</a>
-                                    <ul>
-                                        <li><a href="#">Drop Down Page 1</a></li>
-                                        <li><a href="#">Drop Down Page 2</a></li>
-                                        <li><a href="#">Drop Down Page 3</a></li>
-                                    </ul>
-                                </li>
-                            -->
+
                                 <li class="scroll-to-section"><a href="#menu">Menu</a></li>
                                 <li class="scroll-to-section"><a href="#chefs">Chefs</a></li>
                                 <li class="submenu">
@@ -92,7 +83,7 @@
                     <div class="col-lg-4">
                         <div class="left-content">
                             <div class="inner-content">
-                                <h4>Messton Resturnat</h4>
+                                <h4>Messto Resturnat</h4>
                                 <h6>your perfecto place</h6>
                                 <div class="main-white-button scroll-to-section">
                                     <a href="#reservation">Make A Reservation</a>
