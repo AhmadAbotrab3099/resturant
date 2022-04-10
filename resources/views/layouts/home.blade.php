@@ -64,7 +64,6 @@
         <!-- Global Init -->
         <script src="assets/js/custom.js"></script>
         <script>
-
             $(function() {
                 var selectedClass = "";
                 $("p").click(function(){
@@ -78,7 +77,6 @@
 
                 });
             });
-
         </script>
   </body>
 @endsection
