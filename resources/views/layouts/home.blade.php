@@ -1,36 +1,7 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <title>Klassy Cafe - Restaurant HTML Template</title>
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
-
-    <link rel="stylesheet" href="assets/css/templatemo-klassy-cafe.css">
-
-    <link rel="stylesheet" href="assets/css/owl-carousel.css">
-
-    <link rel="stylesheet" href="assets/css/lightbox.css">
-  </head>
-  <body>
-
+@extends('layouts.index')
+@section('content')
         <!-- ***** Preloader Start ***** -->
-        <div id="preloader">
-            <div class="jumper">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
+
         <!-- ***** Preloader End ***** -->
 
 
@@ -41,8 +12,8 @@
                     <div class="col-12">
                         <nav class="main-nav">
                             <!-- ***** Logo Start ***** -->
-                            <a href="index.html" class="logo">
-                                <img src="assets/images/klassy-logo.png" align="Perfectoo Cafe">
+                            <a href="index.html" class="logo"><img src="assets/images/klassy-logo.png" alt="Perfecto Cafe">
+                                
                             </a>
                             <!-- ***** Logo End ***** -->
                             <!-- ***** Menu Start ***** -->
@@ -62,7 +33,6 @@
                                         <li><a href="#">Features Page 4</a></li>
                                     </ul>
                                 </li>
-                                <!-- <li class=""><a rel="sponsored" href="https://templatemo.com" target="_blank">External URL</a></li> -->
                                 <li class="scroll-to-section"><a href="#reservation">Contact Us</a></li>
                             </ul>
                             <a class='menu-trigger'>
@@ -150,7 +120,7 @@
                     <div class="col-lg-6 col-md-6 col-xs-12">
                         <div class="right-content">
                             <div class="thumb">
-                                <a rel="nofollow" href="http://youtube.com"><i class="fa fa-play"></i></a>
+                                <a rel="nofollow" href="http://youtube.com"><em class="fa fa-play"></em></a>
                                 <img src="assets/images/about-video-bg.jpg" alt="">
                             </div>
                         </div>
@@ -182,7 +152,7 @@
                                   <h1 class='title'>Chocolate Cake</h1>
                                   <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
                                   <div class="main-text-button">
-                                      <div class="scroll-to-section"><a href="#reservation">Make Reservation <i class="fa fa-angle-down"></i></a></div>
+                                      <div class="scroll-to-section"><a href="#reservation">Make Reservation <em class="fa fa-angle-down"></em></a></div>
                                   </div>
                                 </div>
                             </div>
@@ -194,7 +164,7 @@
                                   <h1 class='title'>Klassy Pancake</h1>
                                   <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
                                   <div class="main-text-button">
-                                      <div class="scroll-to-section"><a href="#reservation">Make Reservation <i class="fa fa-angle-down"></i></a></div>
+                                      <div class="scroll-to-section"><a href="#reservation">Make Reservation <em class="fa fa-angle-down"></em></a></div>
                                   </div>
                                 </div>
                             </div>
@@ -206,7 +176,7 @@
                                   <h1 class='title'>Tall Klassy Bread</h1>
                                   <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
                                   <div class="main-text-button">
-                                      <div class="scroll-to-section"><a href="#reservation">Make Reservation <i class="fa fa-angle-down"></i></a></div>
+                                      <div class="scroll-to-section"><a href="#reservation">Make Reservation <em class="fa fa-angle-down"></></a></div>
                                   </div>
                                 </div>
                             </div>
@@ -218,7 +188,7 @@
                                   <h1 class='title'>Blueberry CheeseCake</h1>
                                   <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
                                   <div class="main-text-button">
-                                      <div class="scroll-to-section"><a href="#reservation">Make Reservation <i class="fa fa-angle-down"></i></a></div>
+                                      <div class="scroll-to-section"><a href="#reservation">Make Reservation <em class="fa fa-angle-down"></></a></div>
                                   </div>
                                 </div>
                             </div>
@@ -230,7 +200,7 @@
                                   <h1 class='title'>Klassy Cup Cake</h1>
                                   <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
                                   <div class="main-text-button">
-                                      <div class="scroll-to-section"><a href="#reservation">Make Reservation <i class="fa fa-angle-down"></i></a></div>
+                                      <div class="scroll-to-section"><a href="#reservation">Make Reservation <em class="fa fa-angle-down"></em></a></div>
                                   </div>
                                 </div>
                             </div>
@@ -242,7 +212,7 @@
                                   <h1 class='title'>Klassic Cake</h1>
                                   <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
                                   <div class="main-text-button">
-                                      <div class="scroll-to-section"><a href="#reservation">Make Reservation <i class="fa fa-angle-down"></i></a></div>
+                                      <div class="scroll-to-section"><a href="#reservation">Make Reservation <em class="fa fa-angle-down"></em></a></div>
                                   </div>
                                 </div>
                             </div>
@@ -270,9 +240,9 @@
                             <div class="thumb">
                                 <div class="overlay"></div>
                                 <ul class="social-icons">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><em class="fa fa-facebook"></em></a></li>
+                                    <li><a href="#"><em class="fa fa-twitter"></em></a></li>
+                                    <li><a href="#"><em class="fa fa-instagram"></em></a></li>
                                 </ul>
                                 <img src="assets/images/chefs-01.jpg" alt="Chef #1">
                             </div>
@@ -287,9 +257,9 @@
                             <div class="thumb">
                                 <div class="overlay"></div>
                                 <ul class="social-icons">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                    <li><a href="#"><em class="fa fa-facebook"></em></a></li>
+                                    <li><a href="#"><em class="fa fa-twitter"></em></a></li>
+                                    <li><a href="#"><em class="fa fa-behance"></em></a></li>
                                 </ul>
                                 <img src="assets/images/chefs-02.jpg" alt="Chef #2">
                             </div>
@@ -304,9 +274,9 @@
                             <div class="thumb">
                                 <div class="overlay"></div>
                                 <ul class="social-icons">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                    <li><a href="#"><em class="fa fa-facebook"></em></a></li>
+                                    <li><a href="#"><em class="fa fa-twitter"></em></a></li>
+                                    <li><a href="#"><em class="fa fa-google"></em></a></li>
                                 </ul>
                                 <img src="assets/images/chefs-03.jpg" alt="Chef #3">
                             </div>
@@ -335,14 +305,14 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="phone">
-                                        <i class="fa fa-phone"></i>
+                                        <em class="fa fa-phone"></em>
                                         <h4>Phone Numbers</h4>
                                         <span><a href="#">080-090-0990</a><br><a href="#">080-090-0880</a></span>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="message">
-                                        <i class="fa fa-envelope"></i>
+                                        <em class="fa fa-envelope"></em>
                                         <h4>Emails</h4>
                                         <span><a href="#">hello@company.com</a><br><a href="#">info@company.com</a></span>
                                     </div>
@@ -359,35 +329,39 @@
                                 </div>
                                 <div class="col-lg-6 col-sm-12">
                                   <fieldset>
+                                      <legend>Personalia:</legend>
                                     <input name="name" type="text" id="name" placeholder="Your Name*" required="">
                                   </fieldset>
                                 </div>
                                 <div class="col-lg-6 col-sm-12">
                                   <fieldset>
+                                      <legend>Personalia:</legend>
                                   <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email Address" required="">
                                 </fieldset>
                                 </div>
                                 <div class="col-lg-6 col-sm-12">
                                   <fieldset>
+                                      <legend>Personalia:</legend>
                                     <input name="phone" type="text" id="phone" placeholder="Phone Number*" required="">
                                   </fieldset>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
                                   <fieldset>
+                                      <legend>Personalia:</legend>
                                     <select value="number-guests" name="number-guests" id="number-guests">
                                         <option value="number-guests">Number Of Guests</option>
-                                        <option name="1" id="1">1</option>
-                                        <option name="2" id="2">2</option>
-                                        <option name="3" id="3">3</option>
-                                        <option name="4" id="4">4</option>
-                                        <option name="5" id="5">5</option>
-                                        <option name="6" id="6">6</option>
-                                        <option name="7" id="7">7</option>
-                                        <option name="8" id="8">8</option>
-                                        <option name="9" id="9">9</option>
-                                        <option name="10" id="10">10</option>
-                                        <option name="11" id="11">11</option>
-                                        <option name="12" id="12">12</option>
+                                        <option  id="1">1</option>
+                                        <option  id="2">2</option>
+                                        <option  id="3">3</option>
+                                        <option  id="4">4</option>
+                                        <option  id="5">5</option>
+                                        <option  id="6">6</option>
+                                        <option  id="7">7</option>
+                                        <option  id="8">8</option>
+                                        <option  id="9">9</option>
+                                        <option  id="10">10</option>
+                                        <option  id="11">11</option>
+                                        <option  id="12">12</option>
                                     </select>
                                   </fieldset>
                                 </div>
@@ -403,21 +377,24 @@
                                 </div>
                                 <div class="col-md-6 col-sm-12">
                                   <fieldset>
+                                      <legend>Personalia:</legend>
                                     <select value="time" name="time" id="time">
                                         <option value="time">Time</option>
-                                        <option name="Breakfast" id="Breakfast">Breakfast</option>
-                                        <option name="Lunch" id="Lunch">Lunch</option>
-                                        <option name="Dinner" id="Dinner">Dinner</option>
+                                        <option id="Breakfast">Breakfast</option>
+                                        <option id="Lunch">Lunch</option>
+                                        <option id="Dinner">Dinner</option>
                                     </select>
                                   </fieldset>
                                 </div>
                                 <div class="col-lg-12">
                                   <fieldset>
+                                      <legend>Personalia:</legend>
                                     <textarea name="message" rows="6" id="message" placeholder="Message" required=""></textarea>
                                   </fieldset>
                                 </div>
                                 <div class="col-lg-12">
                                   <fieldset>
+                                      <legend>Personalia:</legend>
                                     <button type="submit" id="form-submit" class="main-button-icon">Make A Reservation</button>
                                   </fieldset>
                                 </div>
@@ -703,10 +680,10 @@
                     <div class="col-lg-4 col-xs-12">
                         <div class="right-text-content">
                                 <ul class="social-icons">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><em class="fa fa-facebook"></em></a></li>
+                                    <li><a href="#"><em class="fa fa-twitter"></em></a></li>
+                                    <li><a href="#"><em class="fa fa-linkedin"></em></a></li>
+                                    <li><a href="#"><em class="fa fa-instagram"></em></a></li>
                                 </ul>
                         </div>
                     </div>
@@ -766,4 +743,5 @@
         </script>
 
   </body>
-</html>
+    
+@endsection
